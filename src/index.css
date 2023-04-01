@@ -1,0 +1,111 @@
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 1000px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.background-image{
+  position: absolute;
+  filter: brightness(50%);
+  height: 1015px;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.logo{
+  margin-top: 15px;
+  margin-left: 40px;
+  font-size: 45px;
+  color: #e50914;
+}
+
+.form-container{
+  opacity: 0.8;
+  z-index: 1;
+  width: 440px;
+  height: 600px;
+  margin: auto;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.signin-form{
+  margin-left: 60px;
+  padding-top: 50px;
+}
+
+.form-heading{
+  color: white;
+}
+
+.input-container{
+  margin-top: 20px;
+}
+
+.input-field{
+  background-color: white;
+  width: 320px;
+  height: 55px;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.signin-btn{
+  color: white;
+  background-color: #e50914;
+  font-size: 20px;
+  margin-top: 30px;
+  border: 1px solid #e50914;
+  border-radius: 5px;
+  width: 320px;
+  height: 50px
+}
+
+.form-footer{
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  color: #737373;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  accent-color: #737373;
+}
+
+.extra-info{
+  color: #737373;
+  margin-top: 70px;
+}
+
+.signup{
+  color: white;
+  display: inline;
+}
+
+.learn-more{
+  width: 320px;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+.learn-more > a{
+  text-decoration: none;
+}
+
+.signin-footer{
+  opacity: 0.8;
+  background-color: black;
+  height: 260px;
+  margin-top: 90px;
+}
